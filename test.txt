@@ -1,0 +1,23 @@
+int main() {
+    int choice;
+    
+    printf("Choose your BTech branch:\n");
+    printf("1. AIML\n");
+    printf("2. ECE\n");
+    printf("3. Mechanical\n");
+    printf("Enter your choice (1-3): ");
+    scanf("%d", &choice);
+    
+    if (choice == 1) {
+        printf("You have chosen BTech in AIML (Artificial Intelligence & Machine Learning).\n");
+    } else if (choice == 2) {
+        printf("You have chosen BTech in ECE (Electronics & Communication Engineering).\n");
+    } else if (choice == 3) {
+        printf("You have chosen BTech in Mechanical Engineering.\n");
+    } else {
+        printf("Invalid choice! Please enter a number between 1 and 3.\n");
+    }
+    
+    return 0;
+}
+
